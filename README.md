@@ -2,12 +2,18 @@
 Livereload.js for WordPress admin and theme templates
 
 ### Grunt Livereload for WordPress
-Contributors: ReneHermi
+Contributors: Mashshare
+
 Tags: Grunt, Livereload
+
 Requires at least: 3.3
+
 Tested up to: 4.2
+
 License: GPLv2
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 Stable tag: 1.0.0
 
 Enqueues livereload.js for Grunt module grunt-contrib-watch into theme and admin template.
