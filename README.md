@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 
 #### Contributing code
 
-The development [source code for this plugin is available on Mashshare´s GitHub account](https://github.com/mashshare/wordpress). [Pull Requests](https://github.com/facebook/wordpress/pulls) and code discussion welcome.
+The development [source code for this plugin is available on Mashshare´s GitHub account](https://github.com/mashshare/livereload). [Pull Requests](https://github.com/mashshare/livereload/pulls) and code discussion welcome.
 
 ### Installation
 
