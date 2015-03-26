@@ -21,7 +21,7 @@ Example grunt configuration which watches all php files and reloads your browser
 
 *gruntfile.js*
 
-`module.exports = function(grunt) {
+```module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -41,10 +41,10 @@ Example grunt configuration which watches all php files and reloads your browser
     require('time-grunt')(grunt);
     // Build task
     grunt.registerTask( 'default', 'watch');
-};`
+};```
 
 *package.json*
-`{
+```{
   "name": "myProject",
   "version": "1.0.0",
   "devDependencies": {
@@ -53,7 +53,7 @@ Example grunt configuration which watches all php files and reloads your browser
     "load-grunt-tasks": "~3.1.0",
     "time-grunt": "~1.1.0",
   }
-}`
+}```
 
 #### Contributing code
 
