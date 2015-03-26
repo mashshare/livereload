@@ -12,7 +12,7 @@ Stable tag: 1.0.0
 
 Enqueues livereload.js for Grunt module grunt-contrib-watch into theme and admin template.
 
-== Description ==
+== Description == 
 
 This simple plugin enqueues livereload.js into your theme and admin template. This is needed if you are using Grunt, grunt-contrib-watch and the livereload option.
 This script uses the default port 35729 of grunt-contrib-watch. If you like to use another port change it on line 45 of livereload.php.
