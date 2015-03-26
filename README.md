@@ -1,7 +1,7 @@
 # livereload
 Livereload.js for WordPress admin and theme templates
 
-=== Grunt Livereload for WordPress ===
+### Grunt Livereload for WordPress
 Contributors: ReneHermi
 Tags: Grunt, Livereload
 Requires at least: 3.3
@@ -12,14 +12,14 @@ Stable tag: 1.0.0
 
 Enqueues livereload.js for Grunt module grunt-contrib-watch into theme and admin template.
 
-== Description == 
+## Description
 
 This simple plugin enqueues livereload.js into your theme and admin template. This is needed if you are using Grunt, grunt-contrib-watch and the livereload option.
 This script uses the default port 35729 of grunt-contrib-watch. If you like to use another port change it on line 45 of livereload.php.
 
 Example grunt configuration which watches all php files and reloads your browser when there are any changes:
 
-<strong>gruntfile.js</strong>
+*gruntfile.js*
 
 `module.exports = function(grunt) {
     // Project configuration.
@@ -43,7 +43,7 @@ Example grunt configuration which watches all php files and reloads your browser
     grunt.registerTask( 'default', 'watch');
 };`
 
-<strong>package.json</strong>
+*package.json*
 `{
   "name": "myProject",
   "version": "1.0.0",
@@ -55,17 +55,17 @@ Example grunt configuration which watches all php files and reloads your browser
   }
 }`
 
-= Contributing code =
+#### Contributing code
 
 The development [source code for this plugin is available on Mashshare´s GitHub account](https://github.com/mashshare/wordpress). [Pull Requests](https://github.com/facebook/wordpress/pulls) and code discussion welcome.
 
-== Installation ==
+### Installation
 
 1. Install this plugin either via the WordPress.org plugin directory, or by uploading the files to your server (in the `/wp-content/plugins/` directory).
 1. That's it. You're ready to go!
 
 
-== Changelog ==
+### Changelog
 
 = 1.0 =
 
