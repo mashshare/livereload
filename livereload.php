@@ -27,7 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
+add_action( 'wp_enqueue_scripts', 'lrel_output_script_front', 100 );
 
+add_action( 'admin_enqueue_scripts', 'lrel_output_script_admin', 100 );
 
 /**
  * Load Scripts
@@ -39,10 +41,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * @return void
  */
 
-function lrel_output_script( ) {
+function lrel_output_script_admin( ) {
     $port = '35729';
     $script = get_site_url().':'.$port.'/livereload.js';
-    wp_enqueue_script( 'lrel_livereload_script', $script, '', '1.0', true );
+    wp_enqueue_script( 'lrel_livereload_admin_script', $script, '', '1.0', true );
 }
-add_action( 'admin_enqueue_scripts', 'lrel_output_script', 100 );
-add_action( 'wp_enqueue_scripts', 'lrel_output_script' );
+
+
+function lrel_output_script_front( ) {
+    $port = '35729';
+    $script = get_site_url().':'.$port.'/livereload.js';
+    wp_enqueue_script( 'lrel_livereload_script', $script, '', '1.0', false ); 
+}
+
+
+
